@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Weather Update</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Update</h1>
+      <span class="month"></span>
+    </div>
+    
+    </div>
+    <div class="description">
+      <div class="location">
+        <h1 id="loc">Location</h1>
+        <div class="search-bar">
+          <input type="text" id="search" placeholder="Search location" onkeydown="if (event.keyCode === 13) searchMe()">
+        </div>
+      <img id="icon" style="width: 20%;"><br>
+      <span id="temperature"></span><br>
+      <span id="description"></span><br>
+      <span class="wind"></span><br>
+      <span class="humidity"></span>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

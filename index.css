@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/158163/clouds-cloudporn-weather-lookup-158163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1s);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    text-transform: capitalize;
+    color: rgb(32, 31, 34);
+    
+}
+  
+  .container{
+    text-indent: 5%; 
+  }
+  
+  .location {
+    align-items: center;
+    margin-top: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .temperature {
+    font-size: 2rem;
+  
+  }
+  
+  .description {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1.8rem;
+    text-align: center;
+    box-sizing: border-box;
+    width: 42%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #ba9bd8, transparent);
+    border-radius: 45px;
+    text-align: center;
+    
+}
+  
+  
+  @media screen and (max-width: 768px) {
+    .weather-info {
+      flex-direction: column;
+    }
+  }
+
+  input{
+    
+    font-size: 1.5rem;
+    border-radius: 20px;
+    
+  }
+  button{
+    font-size: 1.4rem;
+    border-radius: 20px;
+  }
+
+#weather{
+  display: flex;
+  flex-direction: column;
+}
+#temperature{
+  font-size: 4rem;
+  
+}
+.month{
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  display: block;
+}
